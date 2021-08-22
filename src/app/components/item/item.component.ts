@@ -1,18 +1,17 @@
 import { Component, OnInit, Input } from '@angular/core';
-import {Task} from "../../Task"
+import { Task } from '../../Task';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-item',
   templateUrl: './item.component.html',
-  styleUrls: ['./item.component.css']
+  styleUrls: ['./item.component.css'],
 })
 export class ItemComponent implements OnInit {
+  @Input() task: Task;
+  faTimes = faTimes;
 
-  @Input() task: Task
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
