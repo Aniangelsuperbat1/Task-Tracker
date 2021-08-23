@@ -20,7 +20,7 @@ export class ItemComponent implements OnInit {
   onDelete(task) {
     this.onDeleteTask.emit(task);
   }
-  
+
   onToggle(task) {
     this.onToggleReminder.emit(task);
   }
