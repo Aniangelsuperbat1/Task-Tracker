@@ -19,7 +19,7 @@ import {FormsModule} from "@angular/forms"
     ItemComponent,
     AddTaskComponent,
   ],
-  imports: [BrowserModule, FontAwesomeModule, HttpClientModule],
+  imports: [BrowserModule, FontAwesomeModule, HttpClientModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
