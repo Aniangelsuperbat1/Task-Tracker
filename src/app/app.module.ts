@@ -8,6 +8,7 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { ItemComponent } from './components/item/item.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AddTaskComponent } from './components/add-task/add-task.component';
+import {FormsModule} from "@angular/forms"
 
 @NgModule({
   declarations: [
