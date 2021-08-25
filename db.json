@@ -29,12 +29,6 @@
       "text": "Job interview",
       "day": "May 7th at 12:30pm",
       "reminder": false
-    },
-    {
-      "text": "sdfsd",
-      "day": "sfsd",
-      "reminder": true,
-      "id": 6
     }
   ]
 }
