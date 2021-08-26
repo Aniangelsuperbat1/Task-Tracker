@@ -11,6 +11,10 @@ import { AddTaskComponent } from './components/add-task/add-task.component';
 import {FormsModule} from "@angular/forms"
 import {RouterModule, Routes} from '@angular/router';
 
+const appRoutes: Routes =[
+  {path: "", component: TasksComponent},
+]
+
 @NgModule({
   declarations: [
     AppComponent,
