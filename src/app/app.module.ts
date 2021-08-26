@@ -24,7 +24,7 @@ const appRoutes: Routes =[
     ItemComponent,
     AddTaskComponent,
   ],
-  imports: [BrowserModule, FontAwesomeModule, HttpClientModule, FormsModule, RouterModule.forRoot(appRoutes)],
+  imports: [BrowserModule, FontAwesomeModule, HttpClientModule, FormsModule, RouterModule.forRoot(appRoutes, {enableTracing:true})],
   providers: [],
   bootstrap: [AppComponent],
 })
